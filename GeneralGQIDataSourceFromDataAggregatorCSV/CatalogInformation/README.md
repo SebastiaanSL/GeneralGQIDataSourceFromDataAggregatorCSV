@@ -53,22 +53,6 @@ When configuring this data source in a dashboard or low-code app, you'll need to
 3. **Add a data source** and select the GQI Data Source from Data Aggregator CSV
 4. **Configure as needed** and bind to app components
 
-### Folder Structure Example
-
-The data source expects Data Aggregator to organize files in this structure:
-C:\DataAggregator\Results\
-??? 2024\
-?   ??? 01\
-?   ?   ??? 15\
-?   ?   ?   ??? 170000_NetworkPerformance.csv
-?   ?   ?   ??? 150000_ServiceQuality.csv
-?   ?   ??? 16\
-?   ?       ??? 170000_NetworkPerformance.csv
-?   ?       ??? 150000__ServiceQuality.csv
-?   ??? 02\
-?       ??? 01\
-?           ??? 170000_NetworkPerformance.csv
-?           ??? 150000_ServiceQuality.csv
 ## Use Cases
 
 - **Operational Dashboards**: Display aggregated network performance, system health, or service quality metrics
